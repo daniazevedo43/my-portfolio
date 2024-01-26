@@ -1,0 +1,46 @@
+{
+  "name": "my-first-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "my-first-gatsby-site",
+  "author": "Daniel Azevedo",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@chakra-ui/form-control": "^2.0.18",
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mantine/core": "^6.0.11",
+    "@mantine/form": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
+    "@mdx-js/react": "^2.3.0",
+    "@mui/base": "^5.0.0-beta.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@radix-ui/react-popover": "1.0.5",
+    "@react-icons/all-files": "^4.1.0",
+    "bootstrap": "^5.2.3",
+    "framer-motion": "^10.12.12",
+    "gatsby": "^5.9.1",
+    "gatsby-plugin-image": "^3.10.0",
+    "gatsby-plugin-mdx": "^5.10.0",
+    "gatsby-plugin-sharp": "^5.10.0",
+    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby-transformer-sharp": "^5.10.0",
+    "myplugin": "^0.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2"
+  }
+}

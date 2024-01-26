@@ -1,0 +1,131 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.container {
+    width: 650px;
+}
+
+form {
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+}
+
+        .container label input {
+            margin-left: 9px;
+        }
+
+.clear {
+    margin-left: 10px;
+}
+
+label #name {
+    margin-left: 9px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label #email {
+    margin-left: 9px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label #message {
+    margin-left: 9px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=text] {
+    width: 97%;
+    padding: 15px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    background-color: #e7eced;
+    color: #727c85;
+    height: auto;
+    outline: 0;
+}
+
+input[type=email] {
+    width: 97%;
+    padding: 15px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: #727c85;
+    height: auto;
+    outline: 0;
+    background-color: #e7eced
+}
+
+#messageTextArea {
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    height: auto;
+    width: 97%;
+    height: 120px;
+    padding: 15px;
+    margin: -19px 0;
+    margin-left: 9px;
+    outline: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e7eced;
+    color: #727c85;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    margin-right: 406px;
+}
+
+    .sendButton Button {
+        background-color: #1976d2;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 12px;
+    }
+
+        .sendButton Button:hover {
+            background-color: #419cf7;
+        }
+
+    .clearButton Input {
+        background-color: #1976d2;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100px;
+        margin: 4px 2px;
+        margin-left: 8px;
+        cursor: pointer;
+        padding: 12px;
+    }
+
+        .clearButton Input:hover {
+            background-color: #419cf7;
+        }
