@@ -31,7 +31,7 @@ const AboutPage = () => {
         <div className={aboutContainer}>
           <div className={text}>
             <div className={text1}>About me</div>
-                <div className={text2}>I'm 25 years old and I've always 
+                <div className={text2}>I'm 26 years old and I've always 
                     been interested in computers since I was young and 
                     I've always wanted to learn more and work in this 
                     area. In high school I took a professional course in a 

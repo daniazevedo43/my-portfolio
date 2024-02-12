@@ -30,7 +30,7 @@ const BlogPage = ({ data }) => {
                     <h2> {node.frontmatter.title} </h2>
                     <p>Posted: {node.frontmatter.date}</p>
                     <Link to={`/projects/${node.frontmatter.slug}`} className={readMore}>
-                        <p className={readMore}>Read more</p>
+                        <p style={{ border: '1px solid red' }} className={readMore}>Read more</p>
                     </Link>
                   </article>
                 </div>
@@ -54,7 +54,7 @@ export const query = graphql`
           hero_image_alt
           hero_image {
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(width: 1100, height: 500, layout: CONSTRAINED)
             }
           }
         }

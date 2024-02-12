@@ -10,6 +10,7 @@ import {
     navLinks,
     navLinkItem,
     navLinkText,
+    activeNavLink,
     logo,
     homeItem,
     underline
@@ -38,25 +39,25 @@ const Layout = ({ pageTitle, children }) => {
                 </Link>
               </li>
               <li id={homeItem} className={navLinkItem}>
-                <Link to="/" className={navLinkText}>
+                <Link to="/" className={navLinkText} activeClassName={activeNavLink}> 
                     Home
                 </Link>
                 <div className={underline}></div>
               </li>
               <li className={navLinkItem}>
-                <Link to="/about" className={navLinkText}>
+                <Link to="/about" className={navLinkText} activeClassName={activeNavLink}>
                     About
                 </Link>
                 <div className={underline}></div>
               </li>
               <li className={navLinkItem}>
-                <Link to="/projects" className={navLinkText}>
+                <Link to="/projects" className={navLinkText} activeClassName={activeNavLink}>
                   Projects
                 </Link>
                 <div className={underline}></div>
               </li>
               <li className={navLinkItem}>
-                <Link to="/contact" className={navLinkText}>
+                <Link to="/contact" className={navLinkText} activeClassName={activeNavLink}>
                   Contact
                 </Link>
                 <div className={underline}></div>
