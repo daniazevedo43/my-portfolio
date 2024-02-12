@@ -34,7 +34,7 @@ const AboutPage = () => {
                 <div className={text2}>I'm 26 years old and I've always 
                     been interested in computers since I was young and 
                     I've always wanted to learn more and work in this 
-                    area. In high school I took a professional course in a 
+                    area. In high school I took a professional course in 
                     Management Informatics. Then I went to college where I 
                     took a course in Networks and Computer Systems. 
                     Initially, I wanted to work more on Networks, but 
