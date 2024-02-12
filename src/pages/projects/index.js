@@ -30,7 +30,7 @@ const BlogPage = ({ data }) => {
                     <h2> {node.frontmatter.title} </h2>
                     <p>Posted: {node.frontmatter.date}</p>
                     <Link to={`/projects/${node.frontmatter.slug}`} className={readMore}>
-                        <p style={{ border: '1px solid red' }} className={readMore}>Read more</p>
+                        <p className={readMore}>Read more</p>
                     </Link>
                   </article>
                 </div>
