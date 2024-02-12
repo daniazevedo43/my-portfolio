@@ -39,7 +39,7 @@ const AboutPage = () => {
                     took a course in Networks and Computer Systems. 
                     Initially, I wanted to work more on Networks, but 
                     after having completed my internship, I decided to 
-                    move on and get a degree in Computer Science to study
+                    move on and get a degree in Computer Enginnering to study
                     programming.
                 </div>
                 <div className={text3}>Skills: </div>
