@@ -11,4 +11,4 @@ Welcome to my portfolio website! This repository contains the source code for my
 
 ## How to View the Website
 
-You can view the live version of this website here: [PORTFOLIO_DANIEL_AZEVEDO](https://portfolio-daniel-azevedo.netlify.app/).
+You can view the live version of this website here: https://portfolio-daniel-azevedo.netlify.app/.
